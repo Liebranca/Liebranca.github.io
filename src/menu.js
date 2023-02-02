@@ -10,7 +10,9 @@ const fetpage=document.getElementById('fetpage');
 const fetch_tab={
 
   fetch_home: ct_home,
-  fetch_about: ct_about,
+  fetch_projx: ct_projx,
+  fetch_docs: ct_docs,
+  fetch_blog: ct_blog,
 
 };
 
@@ -142,26 +144,28 @@ function blocking_req(state,fn) {
 
 function menu_e_fetch(e) {
 
-  let key  = e.id;
+  let key = e.id;
+  let ct  = (fetch_tab[key] != null)
+    ? fetch_tab[key]
+    : ct_pbwo
+    ;
 
-  if(fetch_tab[key] != null) {
+  ct=(!ct.length) ? ct_pbwo : ct;
 
-    Blocking[BST_Fetch]=true;
+  Blocking[BST_Fetch]=true;
 
-    blocking_req(BST_Fade,function () {
-      page_fade(fetpage,true,12);
+  blocking_req(BST_Fade,function () {
+    page_fade(fetpage,true,12);
 
-    });
+  });
 
-    blocking_req(BST_Fade,function () {
-      fetpage.innerHTML=fetch_tab[key];
-      page_fade(fetpage,false);
+  blocking_req(BST_Fade,function () {
+    fetpage.innerHTML=ct;
+    page_fade(fetpage,false);
 
-      Blocking[BST_Fetch] = false;
+    Blocking[BST_Fetch] = false;
 
-    });
-
-  };
+  });
 
 };
 
