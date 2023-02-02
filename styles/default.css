@@ -1,0 +1,388 @@
+/* ---   *   ---   *   ---*/
+/*
+
+ DEFAULT
+ A style for all
+
+ LIBRE SOFTWARE
+ Licensed under GNU GPL3
+ be a bro and inherit
+
+ CONTRIBUTORS
+ lyeb,
+
+*/
+
+/* ---   *   ---   *   ---*/
+/* info
+
+  VERSION   v0.00.5b;
+  AUTHOR    IBN-3DILA;
+
+*/
+
+/* ---   *   ---   *   ---*/
+
+@font-face {
+
+  font-family: LyCon;
+  src: url('../data/LyCon.ttf');
+
+}
+
+* {
+
+  background-color: #000020;
+  color: #B8B8B8;
+
+  font-family: LyCon;
+  font-size: 18px;
+
+  margin-bottom: 1%;
+  margin-top: 0%;
+  margin-right: 1%;
+
+  padding-right: 1px;
+  padding-left: 1px;
+
+}
+
+h3, .rtop, .fa, div, ul, li {
+  background-color: #040404;
+
+}
+
+div {
+
+  border-color: #000040;
+  border-style: solid none solid none;
+
+  border-width: 2px;
+  border-radius: 6px;
+
+  padding-left: 2%;
+
+}
+
+#fetpage {
+  padding: 0px;
+  marging: 0px;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+ul {
+  padding-left: 8%;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+h1,h2,h3 {
+  margin-top: 3%;
+
+}
+
+h1 {
+
+  background-color: #000040;
+
+  color: #40AE40;
+
+  font-size: 32px;
+  margin-bottom: -1.25%;
+
+}
+
+h2 {
+
+  background-color: #000040;
+
+  color: #00A0A0;
+  font-size: 24px;
+
+}
+
+h3 {
+
+  color: #40AE40;
+  font-size: 20px;
+
+  margin-bottom: 4.00%;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+a {
+
+  padding-left: 1%;
+  padding-right: 1%;
+/*  margin: 1%;*/
+  border-radius: 6px;
+
+  background-color: #000040;
+
+}
+
+a:link {
+  color: #0060B0;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: #8000A0;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #00A0A0;
+  text-decoration: none;
+
+}
+
+a:active {
+  color: #D09820;
+  text-decoration: none;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+#canvas-00 {
+  width: 640;
+  height: 480;
+
+  border: 1px solid #000080;
+  background: #000000;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.ltop {
+  background-color: #000040;
+  border-color: #000080;
+
+}
+
+.rtop {
+  border-color: #000080;
+
+}
+
+.ltop, .left {
+
+  float: left;
+  width: 58%;
+
+  margin-right: 0%;
+  padding-right: 2%;
+
+}
+
+.rtop, .right {
+
+  float: right;
+  width: 35%;
+
+  margin-left: 0%;
+  padding-left: 1.5%;
+
+}
+
+.ltop, .rtop, .left, .right {
+  margin-bottom: 2%;
+  padding-bottom: 2%;
+
+}
+
+.left, .right {
+  padding-top: 0%;
+  margin-top: 0%;
+
+  margin-bottom: 0.5%;
+
+}
+
+.ltop, .rtop {
+  border-style: none none solid none;
+  height: 96px;
+
+  margin-top: 0.0%;
+  margin-bottom: 0.5%;
+  border-color: #000080;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.fa {
+
+  text-align: center;
+
+  font-size: 24px;
+  width: 10%;
+  height: 25%;
+
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  margin: auto;
+  border-radius: 6px;
+
+}
+
+.fa:link, .fa:visited {
+  color: #B0B0B0;
+
+}
+
+.fa:hover {
+  background-color: #B0B0B0
+  color: #040404;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.fa-envelope:hover {
+  color: #B0B0B0;
+  background-color: #7F0000;
+
+}
+
+.fa-github:hover {
+
+  color: #B0B0B0;
+  background-color: #4000B0;
+
+}
+
+.fa-linkedin:hover {
+
+  color: #B0B0B0;
+  background-color: #0040A0;
+
+}
+
+.fa-map-marker:hover {
+  background-color: #902000;
+
+}
+
+.fa-phone:hover {
+  background-color: #009000;
+  border-color: #B0B0B0;
+
+}
+
+.fa:active {
+  color: #D09820;
+  background-color: #7F0000;
+  border-color: #7F0000;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.ltop.menu {
+
+  width: 97%;
+
+  background-color: #101020;
+
+  border: none;
+  display: inline-block;
+
+  border-radius: 2px;
+
+  margin-left: 0%;
+  padding-left: 0%;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.menu span {
+
+  position: relative;
+  top: 10%;
+
+  border-radius: 2px;
+
+  border-right: 1px dotted #404040;
+  background-color: #101020;
+  background-color: var(--STX24-background);
+
+  padding-right: 1%;
+  padding-left: 2%;
+  margin: 0%;
+
+  pading-top: 2%;
+  padding-bottom: 2%;
+
+  text-decoration: none;
+
+}
+
+.menu span:last-child {
+  border-right: none;
+
+}
+
+.menu span i {
+
+  background-color: #101020;
+  background-color: var(--STX24-background);
+  font-style: normal;
+
+  position: relative;
+  top: 35%;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.menu span:hover, .menu span:hover i {
+  color: #40AE40;
+  background-color: #000080;
+
+  border-radius: 6px;
+
+}
+
+.menu span:active, .menu span:active i {
+  color: #D09820;
+  background-color: #7F0000;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+/*.menu:hover .menu-content {*/
+/*  display: block;*/
+/**/
+/*}*/
+
+.menu-content {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  
+
+}
+
+/* ---   *   ---   *   ---*/
+

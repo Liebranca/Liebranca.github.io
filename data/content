@@ -1,0 +1,70 @@
+const ct_home=`
+
+<div class='left'>
+
+  <h3>SYNOPSIS</h3>
+
+  <ul>
+
+  </ul>
+
+</div>
+
+<div class='right'>
+
+  <h3>SKILLS</h3>
+
+    <ul>
+      <li>C/C++</li>
+      <li>Perl</li>
+      <li>Python</li><br>
+
+      <li>HTML/CSS</li>
+      <li>OGL/GLSL</li>
+      <li>Ruby</li>
+      <li>Javascript</li><br>
+
+      <li>Regexes/Parsers</li>
+      <li>DSL Metaprogramming</li>
+      <li>IPC/RPC</li><br>
+
+      <li>GNU/Linux</li>
+      <li>Git</li>
+
+    </ul>
+
+</div>
+
+`;
+
+const ct_about=`
+
+<div class='left'>
+
+  <h3>ABOUT</h3>
+
+  Independent researcher,
+  free software contributor.
+
+  Born and raised in Buenos Aires.
+
+  <br><br>
+
+  Author of
+  <a
+    href="https://github.com/Liebranca/avtomat"
+
+  >avtomat</a>
+
+  and the
+
+  <a href=
+"https://github.com/Liebranca/sin/blob/main/bin/singl"
+
+  >SinGL</a> pre-processor.
+
+  <br>
+
+</div>
+
+`;
