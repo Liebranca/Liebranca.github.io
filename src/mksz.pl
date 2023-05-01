@@ -43,21 +43,25 @@ say
 
 # ---   *   ---   *   ---
 
-my $def_sz      = [qw(5px 7px 9px 16px 24px)];
-my $smol_sz     = [qw(4px 6px 8px 14px 18px)];
+my $def_sz      = [qw(9px 12px 16px 20px 24px)];
+my $smol_sz     = [qw(8px 10px 12px 14px 18px)];
 
 my $border_sz   = [qw(1px 1px 1px 1px 4px)];
 my $border_rad  = [qw(1px 1px 2px 3px 4px)];
 
-my $h1_sz       = [qw(8px 12px 16px 32px 48px)];
-my $h2_sz       = [qw(6px 10px 12px 24px 32px)];
-my $h3_sz       = [qw(5px 8px 10px 20px 28px)];
+my $h1_sz       = [qw(14px 16px 18px 32px 48px)];
+my $h2_sz       = [qw(12px 14px 16px 28px 32px)];
+my $h3_sz       = [qw(10px 12px 12px 24px 28px)];
 
-my $hed_y       = [qw(24px 32px 48px 96px 128px)];
+my $hed_y       = [qw(42px 44px 48px 96px 128px)];
 my $fa_width    = [qw(5px 7px 9px 16px 24px)];
 
 my $menu_height = [qw(7px 10px 12px 22px 30px)];
 my $menu_pad    = [qw(1px 2px 3px 4px 5px)];
+
+# ---   *   ---   *   ---
+
+my $menu_height_p = [qw(12px 16px 22px 28px 33px)];
 
 # ---   *   ---   *   ---
 
@@ -105,6 +109,11 @@ my @data=(
 
   ],
 
+  q[.ctct.button]=>[
+    q[font-size]     => [@$def_sz],
+
+  ],
+
   q[.menu]=>[
     q[height]         => [@$menu_height],
 
@@ -115,6 +124,11 @@ my @data=(
 
   q[.menu-item]=>[
     q[font-size]      => [@$smol_sz],
+
+  ],
+
+  q[.ltop.menu]=>[
+    q[height]=>[@$menu_height_p],
 
   ],
 

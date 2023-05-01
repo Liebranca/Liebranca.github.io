@@ -1,0 +1,185 @@
+const Ct_Lang='en';
+const fetch_tab={
+
+// ---   *   ---   *   ---
+
+fetch_home: `
+
+<div class='left'>
+
+  <h3>ABOUT</h3>
+
+  Independent researcher,
+  free software contributor.
+
+  Born and raised in Buenos Aires.
+
+  <br><br>
+
+  Author of
+  <a
+    href="https://github.com/Liebranca/avtomat"
+
+  >avtomat</a>
+
+  and the
+
+  <a href=
+"https://github.com/Liebranca/sin/blob/main/bin/singl"
+
+  >SinGL</a> pre-processor.
+
+  <br>
+
+</div>
+
+<div class='right'>
+
+  <h3>SKILLS</h3>
+
+    <ul>
+      <li>C/C++</li>
+      <li>Perl</li>
+      <li>Python</li><br>
+
+      <li>HTML/CSS</li>
+      <li>OGL/GLSL</li>
+      <li>Ruby</li>
+      <li>Javascript</li><br>
+
+      <li>Regexes/Parsers</li>
+      <li>DSL Metaprogramming</li>
+      <li>IPC/RPC</li><br>
+
+      <li>GNU/Linux</li>
+      <li>Git</li>
+
+    </ul>
+
+</div>
+
+<div class='left'>
+
+  <h3>EXPERIENCE</h3>
+
+  <ul>
+
+    <li><b>C/C++</b></li>
+    <br>
+
+    <ul>
+
+      <li>Design and implementation of binary <a href="https://github.com/Liebranca/bitter/tree/main/ff">file formats.</a></li>
+
+      <br>
+
+      <li>Developing of general-purpose <a href="https://github.com/Liebranca/bitter/tree/main/kvrnel/src">library</a> for desktop and command-line applications.</li>
+
+      <br>
+
+      <li><a href="https://github.com/Liebranca/sin">3D graphics</a> with OpenGL.</li>
+
+      <br>
+      <li><a href="https://github.com/Liebranca/gaoler">Collision detection</a> algorithms in 3D space.</li>
+
+      <br>
+      <li><a href="https://github.com/Liebranca/chasm">SDL2 wrappers</a> for window and input managing.</li>
+
+    </ul>
+
+    <br>
+
+    <li><b>Perl</b></li>
+    <br>
+
+    <ul>
+
+      <li>Developing project management and build automation <a href="https://github.com/Liebranca/avtomat">utilities</a> for GNU/Linux.</li>
+
+      <br>
+
+      <li>Implemented <a href="https://github.com/Liebranca/avtomat/blob/main/Grammar.pm">grammars</a> to assist in the development of both parsers and interpreters.</li>
+
+      <br>
+
+      <li>Working on multiple <a href="https://github.com/Liebranca/avtomat/tree/main/Emit">source code emitters.</a></li>
+
+      <br>
+
+      <li>Wrote an extensive <a href="https://github.com/Liebranca/avtomat/tree/main/sys">library</a> for application development.</li>
+
+
+      <br>
+
+      <li>Maintainer of various <a href="https://github.com/Liebranca/avtomat/tree/main/bin">command-line applications.</a></li>
+
+    </ul>
+    <br>
+
+    <li><b>Python</b></li>
+    <br>
+
+    <ul>
+
+    <li><a href="https://github.com/Liebranca/auvi/tree/main/DA/iface">Extension development</a> for Blender 3D.</li>
+    <br>
+
+    <li><a href="https://github.com/Liebranca/Throne-of-the-Unforgiven">Game development</a> with UPBGE.</li>
+
+    </ul>
+
+  </ul>
+
+</div>
+
+<div class='right'>
+
+  <h3>EDUCATION</h3>
+
+  <ul>
+
+    <li>2006-2012</li>
+    <b>Computer technician</b><br>
+    ET N26 Confederacion Suiza
+
+    <br><br>
+
+    <li>2013-present</li>
+    <b>Self-taught</b><br>
+    Writing code nearly everyday for ten years
+    and counting.
+
+    </li>
+
+  </ul>
+
+  </ul>
+
+</div>
+
+`,
+
+// ---   *   ---   *   ---
+
+fetch_blog: ``,
+fetch_docs: ``,
+fetch_projx: ``,
+
+pbwo: `
+
+<div class='left'>
+
+  <h3>PAGE BEING WORKED ON</h3>
+
+  This bit is still cooking;<br>
+  Check back in a few days!
+
+  <br>
+
+</div>
+
+`,
+
+// ---   *   ---   *   ---
+
+}; // fetch_tab

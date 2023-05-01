@@ -7,15 +7,6 @@ const menus=[
 
 const fetpage=document.getElementById('fetpage');
 
-const fetch_tab={
-
-  fetch_home: ct_home,
-  fetch_projx: ct_projx,
-  fetch_docs: ct_docs,
-  fetch_blog: ct_blog,
-
-};
-
 // ---   *   ---   *   ---
 
 let Blocking  = [false,false];
@@ -44,7 +35,7 @@ function menu_init(m) {
     };
 
     e.onclick=function (x) {
-      if(!Blocking[BST_Fetch]) {
+      if(! Blocking[BST_Fetch]) {
         menu_select(m,i);
 
       };
@@ -102,8 +93,8 @@ function page_fade(e,out=false,ival=24) {
 
     if (
 
-       !(xp < 0)
-    && !(xp > 1)
+       ! (xp < 0)
+    && ! (xp > 1)
 
     && xp != bound
 
@@ -130,7 +121,7 @@ function blocking_req(state,fn) {
 
   let fn_wait=setInterval(function () {
 
-    if(!Blocking[state]) {
+    if(! Blocking[state]) {
       clearInterval(fn_wait);
       fn();
 
@@ -144,13 +135,13 @@ function blocking_req(state,fn) {
 
 function menu_e_fetch(e) {
 
-  let key = e.id;
-  let ct  = (fetch_tab[key] != null)
+  let key  = e.id;
+  let ct   = (fetch_tab[key] != null)
     ? fetch_tab[key]
-    : ct_pbwo
+    : fetch_tab['pbwo']
     ;
 
-  ct=(!ct.length) ? ct_pbwo : ct;
+  ct=(! ct.length) ? fetch_tab['pbwo'] : ct;
 
   Blocking[BST_Fetch]=true;
 
@@ -191,7 +182,7 @@ function save_state() {
 
   let saved={};
 
-  for(let i=0;i<menus.length;i++) {
+  for(let i=0;i < menus.length;i++) {
     saved[i]=menus[i].STX24;
 
   };
@@ -217,9 +208,39 @@ function load_state() {
 
 // ---   *   ---   *   ---
 
+function lang_detect() {
+
+  let prefs=navigator.languages;
+
+  if(
+
+     prefs[0].startsWith('es')
+  && Ct_Lang != 'es'
+
+  ) {
+
+    window.location.href="./index_es.html";
+
+  } else if(
+
+     prefs[0].startsWith('en')
+  && Ct_Lang != 'en'
+
+  ) {
+
+    window.location.href="./index.html";
+
+  };
+
+  console.log(prefs);
+
+};
+
+// ---   *   ---   *   ---
+
 if(window.localStorage.STX24 == null) {
 
-  for(let i=0;i<menus.length;i++) {
+  for(let i=0;i < menus.length;i++) {
     menu_init(menus[i]);
     menu_select(menus[i],0);
 
@@ -238,5 +259,7 @@ if(window.localStorage.STX24 == null) {
   };
 
 };
+
+lang_detect();
 
 // ---   *   ---   *   ---

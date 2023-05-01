@@ -23,10 +23,19 @@
 
 /* ---   *   ---   *   ---*/
 
+/* old font
+
 @font-face {
 
   font-family: LyCon;
   src: url('../data/LyCon.ttf');
+
+}
+
+*/
+
+@font-face {
+  font-family: 'IBM Plex Sans', sans-serif;
 
 }
 
@@ -35,8 +44,8 @@
   background-color: #000020;
   color: #B8B8B8;
 
-  font-family: LyCon;
-  font-size: 18px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
 
   margin-bottom: 1%;
   margin-top: 0%;
@@ -226,20 +235,30 @@ a:active {
 
 /* ---   *   ---   *   ---*/
 
-.fa {
+.ctct.button {
+
+  border: 1px solid #040404;
+  background-color: #040404;
 
   text-align: center;
-
   font-size: 24px;
-  width: 10%;
-  height: 25%;
-
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-left: 2%;
-  padding-right: 2%;
 
   margin: auto;
+  border-radius: 0px;
+
+}
+
+.fa {
+
+  font-size: 24px;
+
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  padding-left: 1%;
+  padding-right: 1%;
+
+  margin-left: 0%;
   border-radius: 6px;
 
 }
@@ -254,8 +273,6 @@ a:active {
   color: #040404;
 
 }
-
-/* ---   *   ---   *   ---*/
 
 .fa-envelope:hover {
   color: #B0B0B0;
@@ -300,6 +317,7 @@ a:active {
 .ltop.menu {
 
   width: 97%;
+  height: 4.8%;
 
   background-color: #101020;
 
@@ -311,6 +329,8 @@ a:active {
   margin-left: 0%;
   padding-left: 0%;
 
+  margin-bottom: 0.5%;
+
 }
 
 /* ---   *   ---   *   ---*/
@@ -318,8 +338,6 @@ a:active {
 .menu span {
 
   position: relative;
-  top: 10%;
-
   border-radius: 2px;
 
   border-right: 1px dotted #404040;
@@ -366,21 +384,6 @@ a:active {
 .menu span:active, .menu span:active i {
   color: #D09820;
   background-color: #7F0000;
-
-}
-
-/* ---   *   ---   *   ---*/
-
-/*.menu:hover .menu-content {*/
-/*  display: block;*/
-/**/
-/*}*/
-
-.menu-content {
-  position: absolute;
-  display: none;
-  z-index: 1;
-  
 
 }
 

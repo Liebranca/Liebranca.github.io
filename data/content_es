@@ -1,0 +1,185 @@
+const Ct_Lang='es';
+const fetch_tab={
+
+// ---   *   ---   *   ---
+
+fetch_home: `
+
+<div class='left'>
+
+  <h3>ACERCA DE MI</h3>
+
+  Investigador independiente,
+  contribuidor de software libre.
+
+  Nacido y criado en Buenos Aires.
+
+  <br><br>
+
+  Autor de
+  <a
+    href="https://github.com/Liebranca/avtomat"
+
+  >avtomat</a>
+
+  y el pre-procesador
+
+  <a href=
+"https://github.com/Liebranca/sin/blob/main/bin/singl"
+
+  >SinGL.</a>
+
+  <br>
+
+</div>
+
+<div class='right'>
+
+  <h3>HABILIDADES</h3>
+
+    <ul>
+      <li>C/C++</li>
+      <li>Perl</li>
+      <li>Python</li><br>
+
+      <li>HTML/CSS</li>
+      <li>OGL/GLSL</li>
+      <li>Ruby</li>
+      <li>Javascript</li><br>
+
+      <li>Regexes/Parsers</li>
+      <li>Metaprogramación</li>
+      <li>IPC/RPC</li><br>
+
+      <li>GNU/Linux</li>
+      <li>Git</li>
+
+    </ul>
+
+</div>
+
+<div class='left'>
+
+  <h3>EXPERIENCIA</h3>
+
+  <ul>
+
+    <li><b>C/C++</b></li>
+    <br>
+
+    <ul>
+
+      <li>Diseño e implementación de <a href="https://github.com/Liebranca/bitter/tree/main/ff">formatos de archivo</a> binarios.</li>
+
+      <br>
+
+      <li>Desarrollo de <a href="https://github.com/Liebranca/bitter/tree/main/kvrnel/src">librerias</a> multi-propósito para aplicaciones de escritorio y terminal.</li>
+
+      <br>
+
+      <li><a href="https://github.com/Liebranca/sin">Gráficos 3D</a> con OpenGL.</li>
+
+      <br>
+      <li>Algorítmos para <a href="https://github.com/Liebranca/gaoler">detección de colisiones</a> en espacio tridimensional.</li>
+
+      <br>
+      <li><i>Envoltorios</i> de <a href="https://github.com/Liebranca/chasm">SDL2</a> para manejo de ventanas e inputs de las mismas.</li>
+
+    </ul>
+
+    <br>
+
+    <li><b>Perl</b></li>
+    <br>
+
+    <ul>
+
+      <li>Desarrollo de <a href="https://github.com/Liebranca/avtomat">utilidades</a> para gestión de proyectos y automatización de su construcción (o <i>buildeo</i>) en GNU/Linux.</li>
+
+      <br>
+
+      <li>Implementación de <a href="https://github.com/Liebranca/avtomat/blob/main/Grammar.pm">gramáticas</a> para el desarrollo de tanto analizadores sintácticos como interpretes y compiladores.</li>
+
+      <br>
+
+      <li>Trabajo sobre distintos <a href="https://github.com/Liebranca/avtomat/tree/main/Emit">emisores de código fuente.</a></li>
+
+      <br>
+
+      <li>Desarrollo de una <a href="https://github.com/Liebranca/avtomat/tree/main/sys">extensa librería</a> multi-proposito.</li>
+
+
+      <br>
+
+      <li><a href="https://github.com/Liebranca/avtomat/tree/main/bin">Herramientas de consola</a> para desarrolladores.</li>
+
+    </ul>
+    <br>
+
+    <li><b>Python</b></li>
+    <br>
+
+    <ul>
+
+    <li>Desarrollo de <a href="https://github.com/Liebranca/auvi/tree/main/DA/iface">extensiones</a> para Blender 3D.</li>
+    <br>
+
+    <li>Desarrollo de <a href="https://github.com/Liebranca/Throne-of-the-Unforgiven">juegos</a> con UPBGE.</li>
+
+    </ul>
+
+  </ul>
+
+</div>
+
+<div class='right'>
+
+  <h3>EDUCACIÓN</h3>
+
+  <ul>
+
+    <li>2006-2012</li>
+    <b>Técnico en Computación</b><br>
+    E.T. Nº26 Confederación Suiza
+
+    <br><br>
+
+    <li>2013-presente</li>
+    <b>Auto didacta</b><br>
+    Escribo código diariamente
+    desde hace diez años y contando.
+
+    </li>
+
+  </ul>
+
+  </ul>
+
+</div>
+
+`,
+
+// ---   *   ---   *   ---
+
+fetch_blog: ``,
+fetch_docs: ``,
+fetch_projx: ``,
+
+pbwo: `
+
+<div class='left'>
+
+  <h3>PÁGINA EN CONSTRUCCIÓN</h3>
+
+  Este lado del sitio requiere cocción;<br>
+  Vuelva mas tarde!
+
+  <br>
+
+</div>
+
+`,
+
+// ---   *   ---   *   ---
+
+}; // fetch_tab
