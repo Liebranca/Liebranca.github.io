@@ -389,3 +389,21 @@ a:active {
 
 /* ---   *   ---   *   ---*/
 
+.profpic {
+
+  position: relative;
+  background-color: #000020;
+
+}
+
+#first-row-r {
+
+  border: none;
+  height: 0px;
+
+  background-color: #000020;
+
+}
+
+/* ---   *   ---   *   ---*/
+

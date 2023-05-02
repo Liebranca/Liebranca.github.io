@@ -178,6 +178,7 @@ Readonly our $BODY=>q~
   </div>
 
   <script src="./data/content_$:LANG;>"></script>
+  <script src="./src/about.js"></script>
   <script src="./src/menu.js"></script>
 
 </body>

@@ -12,7 +12,10 @@ fetch_home: `
   Independent researcher,
   free software contributor.
 
-  Born and raised in Buenos Aires.
+  <br>
+
+  <b id="lyeb-age">X</b>years old;
+  born and raised in Buenos Aires.
 
   <br><br>
 
@@ -33,28 +36,17 @@ fetch_home: `
 
 </div>
 
-<div class='right'>
+<div class='right' id='first-row-r'>
 
-  <h3>SKILLS</h3>
+<img
 
-    <ul>
-      <li>C/C++</li>
-      <li>Perl</li>
-      <li>Python</li><br>
+  id="profpic"
+  class="profpic"
 
-      <li>HTML/CSS</li>
-      <li>OGL/GLSL</li>
-      <li>Ruby</li>
-      <li>Javascript</li><br>
+  src="./data/mepic.png"
+  alt="Foto de perfil"
 
-      <li>Regexes/Parsers</li>
-      <li>DSL Metaprogramming</li>
-      <li>IPC/RPC</li><br>
-
-      <li>GNU/Linux</li>
-      <li>Git</li>
-
-    </ul>
+>
 
 </div>
 
@@ -129,6 +121,31 @@ fetch_home: `
     </ul>
 
   </ul>
+
+</div>
+
+<div class='right'>
+
+  <h3>SKILLS</h3>
+
+    <ul>
+      <li>C/C++</li>
+      <li>Perl</li>
+      <li>Python</li><br>
+
+      <li>HTML/CSS</li>
+      <li>OGL/GLSL</li>
+      <li>Ruby</li>
+      <li>Javascript</li><br>
+
+      <li>Regexes/Parsers</li>
+      <li>DSL Metaprogramming</li>
+      <li>IPC/RPC</li><br>
+
+      <li>GNU/Linux</li>
+      <li>Git</li>
+
+    </ul>
 
 </div>
 

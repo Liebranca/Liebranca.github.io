@@ -152,6 +152,8 @@ function menu_e_fetch(e) {
 
   blocking_req(BST_Fade,function () {
     fetpage.innerHTML=ct;
+
+    about_run();
     page_fade(fetpage,false);
 
     Blocking[BST_Fetch] = false;
@@ -231,8 +233,6 @@ function lang_detect() {
     window.location.href="./index.html";
 
   };
-
-  console.log(prefs);
 
 };
 

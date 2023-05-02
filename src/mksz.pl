@@ -62,6 +62,20 @@ my $menu_pad    = [qw(1px 2px 3px 4px 5px)];
 # ---   *   ---   *   ---
 
 my $menu_height_p = [qw(12px 16px 22px 28px 33px)];
+my $profpic_sz     = [qw(
+  74px 96px 128px 156px 224px
+
+)];
+
+my $profpic_top = [qw(
+  25px 25px 20px 28px 12px
+
+)];
+
+my $profpic_mar_left = [qw(
+  7.5% 13.5% 17.5% 20% 18%
+
+)];
 
 # ---   *   ---   *   ---
 
@@ -129,6 +143,15 @@ my @data=(
 
   q[.ltop.menu]=>[
     q[height]=>[@$menu_height_p],
+
+  ],
+
+  q[.profpic]=>[
+    q[height] => [@$profpic_sz],
+    q[width]  => [@$profpic_sz],
+    q[top]    => [@$profpic_top],
+
+    q[margin-left]=>[@$profpic_mar_left],
 
   ],
 

@@ -66,6 +66,14 @@
 
   }
 
+  .profpic {
+    height: 74px;
+    width: 74px;
+    top: 25px;
+    margin-left: 7.5%;
+
+  }
+
 
 }
 
@@ -123,6 +131,14 @@
 
   .ltop.menu {
     height: 16px;
+
+  }
+
+  .profpic {
+    height: 96px;
+    width: 96px;
+    top: 25px;
+    margin-left: 13.5%;
 
   }
 
@@ -186,6 +202,14 @@
 
   }
 
+  .profpic {
+    height: 128px;
+    width: 128px;
+    top: 20px;
+    margin-left: 17.5%;
+
+  }
+
 
 }
 
@@ -246,6 +270,14 @@
 
   }
 
+  .profpic {
+    height: 156px;
+    width: 156px;
+    top: 28px;
+    margin-left: 20%;
+
+  }
+
 
 }
 
@@ -303,6 +335,14 @@
 
   .ltop.menu {
     height: 33px;
+
+  }
+
+  .profpic {
+    height: 224px;
+    width: 224px;
+    top: 12px;
+    margin-left: 18%;
 
   }
 
