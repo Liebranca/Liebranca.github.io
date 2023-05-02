@@ -155,6 +155,11 @@ my @data=(
 
   ],
 
+  q[.langsel]=>[
+    q[font-size] => [@$smol_sz],
+
+  ],
+
 );
 
 # ---   *   ---   *   ---

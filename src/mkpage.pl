@@ -52,7 +52,7 @@ Readonly our $HEAD=>q~
   >
 
   <title>
-    CV
+    Dante Paola
 
   </title>
 
@@ -162,6 +162,35 @@ Readonly our $BODY=>q~
     ></a></span>
 
   </div>
+
+<!-- ---   *   ---   *   ----->
+
+  <div class="langsel">
+
+    <button class="langsel-btn">
+      LANG: $:LANGSEL;>
+
+    </button>
+
+    <div class="langsel-ct">
+
+      <button
+        class="langsel-opt"
+        id="en-langsel"
+
+      >English</button>
+
+      <button
+        class="langsel-opt"
+        id="es-langsel"
+
+      >Español</button>
+
+    </div>
+
+  </div>
+
+<!-- ---   *   ---   *   ----->
 
   <div class="ltop menu" id="menu-top">
 

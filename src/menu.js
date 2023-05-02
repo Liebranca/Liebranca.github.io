@@ -7,12 +7,54 @@ const menus=[
 
 const fetpage=document.getElementById('fetpage');
 
+
+// ---   *   ---   *   ---
+
+function langsel_show() {
+
+  let dst=document.getElementsByClassName(
+    "langsel-ct"
+
+  )[0];
+
+  dst.style.display=(dst.style.display == "none")
+    ? "block"
+    : "none"
+    ;
+
+};
+
+document.getElementsByClassName(
+  "langsel"
+
+)[0].addEventListener('click',langsel_show);
+
+// ---   *   ---   *   ---
+
+document.getElementById(
+  'en-langsel'
+
+).addEventListener('click',function () {
+  lang_swap('en');
+
+});
+
+document.getElementById(
+  'es-langsel'
+
+).addEventListener('click',function () {
+  lang_swap('es');
+
+});;
+
 // ---   *   ---   *   ---
 
 let Blocking  = [false,false];
 
 let BST_Fade  = 0;
 let BST_Fetch = 1;
+
+let Lang_Pref = Ct_Lang;
 
 // ---   *   ---   *   ---
 
@@ -182,7 +224,10 @@ function menu_e_set_bkg(e,col) {
 
 function save_state() {
 
-  let saved={};
+  let saved={
+    Lang_Pref: Lang_Pref,
+
+  };
 
   for(let i=0;i < menus.length;i++) {
     saved[i]=menus[i].STX24;
@@ -210,27 +255,46 @@ function load_state() {
 
 // ---   *   ---   *   ---
 
+function lang_swap(key) {
+
+  console.log(key);
+
+  Lang_Pref=key;
+  lang_detect();
+
+};
+
+// ---   *   ---   *   ---
+
 function lang_detect() {
 
-  let prefs=navigator.languages;
+  if(Ct_Lang != Lang_Pref) {
 
-  if(
+    let prefs = navigator.languages;
 
-     prefs[0].startsWith('es')
-  && Ct_Lang != 'es'
+    if(
 
-  ) {
+      (  prefs[0].startsWith('es')
+      && Ct_Lang != 'es')
 
-    window.location.href="./index_es.html";
+    || Lang_Pref == 'es'
 
-  } else if(
+    ) {
 
-     prefs[0].startsWith('en')
-  && Ct_Lang != 'en'
+      window.location.href="./index_es.html";
 
-  ) {
+    } else if(
 
-    window.location.href="./index.html";
+      (  prefs[0].startsWith('en')
+      && Ct_Lang != 'en')
+
+    || Lang_Pref == 'en'
+
+    ) {
+
+      window.location.href="./index.html";
+
+    };
 
   };
 

@@ -74,6 +74,11 @@
 
   }
 
+  .langsel {
+    font-size: 8px;
+
+  }
+
 
 }
 
@@ -139,6 +144,11 @@
     width: 96px;
     top: 25px;
     margin-left: 13.5%;
+
+  }
+
+  .langsel {
+    font-size: 10px;
 
   }
 
@@ -210,6 +220,11 @@
 
   }
 
+  .langsel {
+    font-size: 12px;
+
+  }
+
 
 }
 
@@ -278,6 +293,11 @@
 
   }
 
+  .langsel {
+    font-size: 14px;
+
+  }
+
 
 }
 
@@ -343,6 +363,11 @@
     width: 224px;
     top: 12px;
     margin-left: 18%;
+
+  }
+
+  .langsel {
+    font-size: 18px;
 
   }
 

@@ -407,3 +407,97 @@ a:active {
 
 /* ---   *   ---   *   ---*/
 
+.langsel {
+
+  background-color: #040404;
+
+  position: relative;
+  display: inline-block;
+
+  width: 97%;
+
+}
+
+.langsel-btn {
+
+  background-color: #040404;
+
+  padding-top: 1%;
+  border: none;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.langsel-ct {
+
+  display: none;
+  position: absolute;
+  z-index: 1;
+
+  padding: 0px;
+  margin: 0px;
+
+  border: none;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.langsel-opt {
+
+  text-decoration: none;
+
+  padding: 0px;
+  margin: 0px;
+
+  width: 100%;
+
+  background-color: #040404;
+  border: none;
+
+}
+
+.langsel-opt:hover {
+
+  color: #40AE40;
+  background-color: #000040;
+
+}
+
+.langsel-opt:active {
+
+  color: #D09820;
+  background-color: #7F0000;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.langsel:hover .langsel-ct {
+  display: block;
+
+}
+
+.langsel:hover .langsel-btn {
+  background-color: #000020;
+
+}
+
+.langsel:active .langsel-btn {
+  background-color: #000020;
+
+}
+
+/* ---   *   ---   *   ---*/
+
+.langsel:active {
+  background-color: #000020;
+
+}
+
+.langsel:hover {
+  background-color: #000020;
+}
+
+/* ---   *   ---   *   ---*/
